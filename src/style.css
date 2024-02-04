@@ -1,0 +1,234 @@
+/* Font for Heading */ @import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap'); /* font-family: 'Overpass', sans-serif; */
+/* Font for Body */ @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap'); /* font-family: 'Baloo 2', sans-serif; */
+ 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo 2', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: rgb(229, 229, 229);
+}
+
+hr{
+    margin: 10px 0;
+    height: 10px;
+    background: rgb(70, 70, 70, 0.5);
+}
+
+.inside{
+    margin: 10px 0;
+    height: 5px;
+    background: rgba(166, 166, 166, 0.5);
+}
+
+strong{
+    font-weight: 900;
+}
+
+nav{
+    background: black;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: end;
+    color: white;
+}
+
+nav .lang{
+    padding: 5px 0;
+}
+
+nav .lang span{
+    font-size: 18px;
+}
+
+nav .lang a{
+    background: gray;
+    border-radius: 20px;
+    padding: 0px 10px;
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+nav .lang a:hover{
+    background: rgb(77, 77, 77);
+}
+
+#introduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+#introduction h1{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: 'Overpass', sans-serif;
+}
+
+#introduction .intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#introduction .intro img{
+    border: 5px solid black;
+}
+
+p{
+    padding: 0 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+h2{
+    font-family: 'Overpass', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+}
+
+h3 li{
+    font-family: 'Overpass', sans-serif;
+    font-size: 2rem;
+    margin: 0 40px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.info_pic{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+
+/* For mobile responsive */
+@media only screen and (max-width: 600px) {
+    
+    hr{
+        margin: 5px 0;
+        height: 5px;
+    }
+
+    .inside{
+        margin: 5px 0;
+        height: 2.5px;
+        background: rgba(166, 166, 166, 0.5);
+    }
+    
+    nav .lang{
+        padding: 2px 0;
+    }
+    
+    nav .lang span{
+        font-size: 15px;
+    }
+    
+    nav .lang a{
+        background: gray;
+        border-radius: 20px;
+        padding: 0px 5px;
+        color: white;
+        text-decoration: none;
+        margin: 0 2px;
+    }
+    
+    nav .lang a:hover{
+        background: rgb(77, 77, 77);
+    }
+
+    #introduction h1{
+        font-size: 1.7rem;
+        margin-top: 30px;
+    }
+    
+    #introduction .intro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0 0;
+    }
+    
+    #introduction .intro img{
+        height: 300px;
+        width: 200px;
+    }
+    
+    h2{
+        font-size: 1.1rem;
+    }
+
+    p{
+        padding: 0 20px;
+        margin-top: 5px;
+        font-size: 16px;
+    }
+
+    .info_pic{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 0;
+    }
+
+    h3 li{
+        font-size: 0.9rem;
+        margin: 2px 20px;
+    }
+
+    #early-life img{
+        height: 250px;
+    }
+
+    #early-life .info_pic{
+        flex-direction: column-reverse;
+    }
+
+    #bijapur_conflict img{
+        height: 220px;
+    }
+
+    #bijapur_conflict .info_pic{
+        flex-direction: column-reverse;
+    }
+
+    #mughal_combat img{
+        height: 220px;
+    }
+
+    #mughal_combat .info_pic{
+        flex-direction: column-reverse;
+    }
+
+    #coronation img{
+        height: 220px;
+    }
+
+    #coronation .info_pic{
+        flex-direction: column-reverse;
+    }
+}
