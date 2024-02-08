@@ -3,6 +3,11 @@ import { Link } from 'react-router-dom';
 
 
 export default function English() {
+
+  document.title = "Chatrapati Shivaji Maharaj";
+
+  document.querySelector('meta[name="description"]').setAttribute("content", "Chatrapati Shivaji Maharaj was an amazing Maratha king, and this tribute page lets you step into his incredible world. Learn about his bravery and leadership in Indian history. Explore how he built the Maratha Empire and used smart military tactics. This page looks at his smart strategies and how well he ran things. Find out about his strong spirit that affected the 16th century and still inspires people today. This page talk about his skills at sea and his commitment to fair rule. Join me in honoring this important historical figure, and learn why what he did is so important. Discover the stories of Chatrapati Shivaji Maharaj's extraordinary life and why he matters to our history.");
+
   return (
     <>
       <div>
