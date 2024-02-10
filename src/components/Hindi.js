@@ -29,9 +29,13 @@ export default function Hindi() {
                       <p>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>छत्रपति शिवाजी महाराज</strong> भोंसले मराठा वंश के एक भारतीय शासक थे। उन्होंने बीजापुर की कमजोर होती आदिलशाही सल्तनत से उभरकर अपना राज्य स्थापित किया, जिसने मराठा साम्राज्य की नींव रखी। १६७४ में, शिवाजी को रायगढ़ किले में आधिकारिक तौर पर अपने डोमेन के छत्रपति के रूप में ताज पहनाया गया था। <br/>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;अपने पूरे जीवन में, शिवाजी ने मुगल साम्राज्य, गोलकुंडा की सल्तनत, बीजापुर की सल्तनत और यूरोपीय औपनिवेशिक ताकतों सहित विभिन्न शक्तियों के साथ गठबंधन और संघर्ष किया। उनके सैन्य अभियानों ने मराठा प्रभाव का विस्तार किया, जिसमें किलों पर कब्ज़ा और निर्माण और मराठा नौसेना का विकास शामिल था। शिवाजी ने संरचित प्रशासनिक प्रणालियों के साथ एक कुशल और दूरदर्शी नागरिक प्रशासन की स्थापना की। उन्होंने प्राचीन हिंदू राजनीतिक रीति-रिवाजों, अदालती परंपराओं को पुनर्जीवित किया और अदालत और प्रशासन में फ़ारसी की जगह मराठी और संस्कृत भाषाओं के इस्तेमाल की वकालत की। <br/>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;शिवाजी को महिलाओं के प्रति उनके सम्मानजनक व्यवहार और उनके समावेशी दृष्टिकोण के लिए प्रशंसा मिली, उन्होंने अपने प्रशासन और सेना में मुसलमानों और यूरोपीय सहित विभिन्न जातियों और धर्मों के व्यक्तियों को नियुक्त किया। <br/>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;शिवाजी महाराज की विरासत परिप्रेक्ष्य और युग के आधार पर भिन्न-भिन्न थी, लेकिन उनके निधन के लगभग दो शताब्दियों के बाद, भारतीय स्वतंत्रता आंदोलन के दौरान उनका महत्व बढ़ गया। कई भारतीय राष्ट्रवादी उन्हें राष्ट्रवाद के अग्रदूत और हिंदुओं के बीच एक नायक मानते थे।
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;शिवाजी को महिलाओं के प्रति उनके सम्मानजनक व्यवहार और उनके समावेशी दृष्टिकोण के लिए प्रशंसा मिली, उन्होंने अपने प्रशासन और सेना में मुसलमानों और यूरोपीय सहित विभिन्न जातियों और धर्मों के व्यक्तियों को नियुक्त किया। 
                       </p>
+                  </div>
+                  <div className="info-pic">
+                    <p>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;शिवाजी महाराज की विरासत परिप्रेक्ष्य और युग के आधार पर भिन्न-भिन्न थी, लेकिन उनके निधन के लगभग दो शताब्दियों के बाद, भारतीय स्वतंत्रता आंदोलन के दौरान उनका महत्व बढ़ गया। कई भारतीय राष्ट्रवादी उन्हें राष्ट्रवाद के अग्रदूत और हिंदुओं के बीच एक नायक मानते थे।
+                    </p>
                   </div>
               </div>
           </section>
@@ -62,27 +66,27 @@ export default function Hindi() {
               <ul><h3><li>स्वतंत्र जनरलशिप:</li></h3></ul>
               <div class="info_pic">
                   <p>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In 1646, at the age of 16, Shivaji seized the Torna Fort, capitalizing on the turmoil within the Bijapur court due to Sultan Mohammed Adil Shah's illness, and confiscated a significant treasure. Over the next two years, he captured several key forts near Pune, including Purandar, Kondhana, and Chakan, extending his direct control over areas east of Pune, such as Supa, Baramati, and Indapur. Using the treasure from Torna, he constructed a new fort called Rajgad, which became the center of his administration for more than ten years. <br />
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Subsequently, Shivaji shifted his focus westward to the Konkan region, acquiring the important town of Kalyan. The Bijapur government took notice of these developments and moved to counteract them. On 25 July 1648, Shahaji was imprisoned by fellow Maratha leader Baji Ghorpade, acting under Bijapur's orders, in an attempt to curb Shivaji's growing influence.
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;१६४६ में, १६ साल की उम्र में, शिवाजी ने सुल्तान मोहम्मद आदिल शाह की बीमारी के कारण बीजापुर दरबार के भीतर उथल-पुथल का फायदा उठाते हुए, तोरणा किले पर कब्ज़ा कर लिया और एक महत्वपूर्ण खजाना जब्त कर लिया। अगले दो वर्षों में, उसने पुणे के पास कई प्रमुख किलों पर कब्ज़ा कर लिया, जिनमें पुरंदर, कोंढाना और चाकन शामिल थे, और पुणे के पूर्व में सुपा, बारामती और इंदापुर जैसे क्षेत्रों पर अपना सीधा नियंत्रण बढ़ा लिया। तोरणा के खजाने का उपयोग करके, उन्होंने राजगढ़ नामक एक नए किले का निर्माण किया, जो दस वर्षों से अधिक समय तक उनके प्रशासन का केंद्र बना रहा। <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;बाद में, शिवाजी ने अपना ध्यान पश्चिम की ओर कोंकण क्षेत्र में स्थानांतरित कर दिया, और कल्याण के महत्वपूर्ण शहर पर कब्ज़ा कर लिया। बीजापुर सरकार ने इन घटनाक्रमों पर ध्यान दिया और उनका प्रतिकार करने के लिए कदम उठाया। २५ जुलाई १६४८ को, शिवाजी के बढ़ते प्रभाव को रोकने के प्रयास में, बीजापुर के आदेश के तहत कार्य करते हुए, शाहजी को साथी मराठा नेता बाजी घोरपड़े द्वारा कैद कर लिया गया था।
                   </p>
                   <img src="imgs/south_india_in_1605.webp" alt="shivneri" height="400px" />
               </div>
               <div class="info_pic">
                   <p>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shahaji regained freedom in 1649, following the capture of Jinji, which secured Adilshah's authority in Karnataka. Between 1649 and 1655, Shivaji paused his military campaigns to consolidate his gains. After his father's release, he resumed his raids, and in 1656, controversially killed Chandrarao More, another Maratha feudatory of Bijapur, seizing control of the Javali valley near present-day Mahabaleshwar. This conquest enabled Shivaji to extend his raids into south and southwest Maharashtra. <br />
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Apart from the Bhonsle and More families, numerous others, including the Sawant of Sawantwadi, Ghorpade of Mudhol, Nimbalkar of Phaltan, and Shirke, Mane, and Mohite families, served the Adilshahi of Bijapur, many holding Deshmukhi rights. Shivaji employed various strategies to subdue these influential families, including forming alliances, engaging directly with village Patils to bypass the Deshmukhs, or employing force. <br />
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In his later years, Shahaji displayed mixed feelings toward his son, disavowing his rebellious activities and leaving Shivaji's fate to the Bijapur authorities. Shahaji passed away around 1664–1665 in a hunting accident.
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;जिंजी पर कब्ज़ा करने के बाद, शाहजी को १६४९ में आज़ादी मिली, जिससे कर्नाटक में आदिलशाह का अधिकार सुरक्षित हो गया। १६४९ और १६५५ के बीच, शिवाजी ने अपनी बढ़त को मजबूत करने के लिए अपने सैन्य अभियान रोक दिए। अपने पिता की रिहाई के बाद, उन्होंने अपनी छापेमारी फिर से शुरू की और १६५६ में, बीजापुर के एक अन्य मराठा सामंत चंद्रराव मोरे की विवादास्पद हत्या कर दी और वर्तमान महाबलेश्वर के पास जावली घाटी पर कब्ज़ा कर लिया। इस विजय ने शिवाजी को दक्षिण और दक्षिण-पश्चिम महाराष्ट्र में अपने आक्रमण बढ़ाने में सक्षम बनाया। <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;भोंसले और मोरे परिवारों के अलावा, सावंतवाड़ी के सावंत, मुधोल के घोरपड़े, फल्टन के निंबालकर और शिर्के, माने और मोहिते परिवारों सहित कई अन्य लोगों ने बीजापुर के आदिलशाही की सेवा की, कई लोगों के पास देशमुखी अधिकार हैं। शिवाजी ने इन प्रभावशाली परिवारों को वश में करने के लिए विभिन्न रणनीतियाँ अपनाईं, जिनमें गठबंधन बनाना, देशमुखों को दरकिनार करने के लिए गाँव के पाटिलों से सीधे जुड़ना या बल का प्रयोग करना शामिल था। <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;अपने बाद के वर्षों में, शाहजी ने अपने बेटे के प्रति मिश्रित भावनाएँ प्रदर्शित कीं, उनकी विद्रोही गतिविधियों को खारिज कर दिया और शिवाजी के भाग्य को बीजापुर के अधिकारियों पर छोड़ दिया। १६६४-१६६५ के आसपास एक शिकार दुर्घटना में शाहजी की मृत्यु हो गई।
                   </p>
               </div>
 
   <hr class="inside" />
-              <ul><h3><li>Combat with Afzal Khan: </li></h3></ul>
+              <ul><h3><li>अफ़ज़ल खान से मुकाबला:</li></h3></ul>
               <div class="info_pic">
                   <p>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Bijapur sultanate grew increasingly displeased with the losses suffered against Shivaji's forces, particularly with their vassal Shahaji disavowing his son's actions. With a peace treaty established with the Mughals and the ascension of the young Ali Adil Shah II as sultan, Bijapur stabilized, directing its focus towards Shivaji. <br />
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In 1657, the sultan, likely influenced by his mother and regent, dispatched Afzal Khan, a seasoned general, to apprehend Shivaji. Before their confrontation, the Bijapuri forces defiled the Tulja Bhavani Temple, sacred to Shivaji's family, and the Vithoba temple at Pandharpur, a significant Hindu pilgrimage site. <br />
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hunted by Bijapuri troops, Shivaji sought refuge in Pratapgad fort. Despite pressure from his associates to surrender, Shivaji and his forces remained entrenched. Both sides reached a deadlock, with Shivaji unable to break the siege, and Afzal Khan lacking the necessary siege equipment to capture the fort. <br />
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After two months, Afzal Khan proposed a private meeting with Shivaji outside the fort to negotiate terms, sending an envoy to initiate discussions.
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;बीजापुर सल्तनत शिवाजी की सेनाओं के विरुद्ध हुए नुकसान से बहुत अधिक अप्रसन्न हो गई, विशेष रूप से उनके जागीरदार शाहजी द्वारा अपने बेटे के कार्यों को अस्वीकार करने से। मुगलों के साथ शांति संधि स्थापित होने और युवा अली आदिल शाह द्वितीय के सुल्तान बनने के साथ, बीजापुर स्थिर हो गया और अपना ध्यान शिवाजी की ओर केंद्रित कर दिया। <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;१६५७ में, सुल्तान ने, संभवतः अपनी मां और शासक से प्रभावित होकर, शिवाजी को पकड़ने के लिए एक अनुभवी सेनापति अफजल खान को भेजा। उनके टकराव से पहले, बीजापुरी सेनाओं ने शिवाजी के परिवार के पवित्र तुलजा भवानी मंदिर और एक महत्वपूर्ण हिंदू तीर्थ स्थल पंढरपुर के विठोबा मंदिर को अपवित्र कर दिया। <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;बीजापुरी सैनिकों द्वारा शिकार किए जाने पर, शिवाजी ने प्रतापगढ़ किले में शरण ली। अपने सहयोगियों के आत्मसमर्पण के दबाव के बावजूद, शिवाजी और उनकी सेनाएँ डटी रहीं। दोनों पक्ष गतिरोध पर पहुँच गए, शिवाजी घेराबंदी तोड़ने में असमर्थ थे, और अफ़ज़ल खान के पास किले पर कब्ज़ा करने के लिए आवश्यक घेराबंदी उपकरण नहीं थे। <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;दो महीने के बाद, अफजल खान ने शर्तों पर बातचीत करने के लिए किले के बाहर शिवाजी के साथ एक निजी बैठक का प्रस्ताव रखा, और पहल करने के लिए एक दूत |
                   </p>
                   <img src="imgs/afzal_khan.webp" alt="shivneri" height="450px" />
               </div>
@@ -117,7 +121,7 @@ export default function Hindi() {
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;पवन खिंड की आगामी लड़ाई में, अधिक संख्या में मराठा सेना ने बहादुरी से बड़े दुश्मन को रोक लिया, जिससे शिवाजी के भागने के लिए महत्वपूर्ण समय मिल गया। घायल होने के बावजूद, बाजी प्रभु देशपांडे तब तक लड़ते रहे जब तक उन्होंने विशालगढ़ से तोप की आवाज नहीं सुनी, जो १३ जुलाई १६६० की शाम को किले में शिवाजी के सफल आगमन का संकेत था। <br />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;उनकी वीरता और बलिदान की मान्यता में, बाद में बाजी प्रभु देशपांडे, शिबोसिंह जाधव, फुलोजी और लड़ने वाले अन्य सभी सैनिकों के सम्मान में घोड़ खिंड का नाम बदलकर पावन खिंड ("पवित्र दर्रा") कर दिया गया। वहाँ।
                   </p>
-                  <img src="imgs/pavan-khind.webp" alt="pavan-khind" height="300px" />
+                  <img src="imgs/pavan-khind.webp" alt="pavan-khind" height="450px" />
               </div>
           </section>
   <hr />
@@ -411,7 +415,7 @@ export default function Hindi() {
           </section>
   
           <section id="continue-btn">
-              <a href="https://en.wikipedia.org/wiki/Shivaj" target="_blank" rel='noreferrer'><button>पढना जारी रखे।</button></a>
+              <a href="https://en.wikipedia.org/wiki/Shivaji" target="_blank" rel='noreferrer'><button>पढना जारी रखे।</button></a>
           </section>
       </main>
       <footer>
@@ -420,9 +424,6 @@ export default function Hindi() {
           </p>
           <p>
               Created by <a href="https://www.linkedin.com/in/mohit-shaharwale-634b22282/">Mohit Shaharwale</a>
-          </p>
-          <p>
-              ------------------------------------------------------------------------------------------
           </p>
           <p>
               Text is available under the <a href="https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License">Creative Commons Attribution-ShareAlike License 4.0</a>

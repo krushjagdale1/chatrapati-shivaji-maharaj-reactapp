@@ -27,11 +27,15 @@ export default function English() {
                   <div class="intro">
                       <img src="imgs/chatrapati-shivaji-maharaj.webp" alt="chatrapati-shivaji-maharaj-portrait" height="600px" />
                       <p>
-                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Chatrapati Shivaji Maharaj</strong> (Shivaji I) was an Indian ruler hailing from the Bhonsle Maratha clan. He established his own kingdom, emerging from the weakening Adilshahi Sultanate of Bijapur, which laid the foundation for the Maratha Empire. In 1674, Shivaji was officially crowned as the Chatrapati of his domain at Raigad Fort. <br />
-                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Throughout his life, Shivaji navigated alliances and conflicts with various powers including the Mughal Empire, the Sultanate of Golkonda, the Sultanate of Bijapur, and European colonial forces. His military campaigns expanded Maratha influence, involving the capture and construction of forts, and the development of a Maratha navy. Shivaji instituted an efficient and forward-thinking civil administration with structured administrative systems. He revived ancient Hindu political customs, court traditions, and advocated for the use of Marathi and Sanskrit languages, replacing Persian in court and administration. <br />
-                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shivaji was admired for his respectful treatment of women and his inclusive approach, employing individuals from diverse castes and religions, including Muslims and Europeans, in his administration and military. <br />
-                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shivaji Maharaj's legacy varied depending on the perspective and era, but nearly two centuries after his passing, he gained increased significance during the Indian independence movement. Many Indian nationalists regarded him as a precursor to nationalism and a hero among Hindus.
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Chatrapati Shivaji Maharaj</strong> was an Indian ruler hailing from the Bhonsle Maratha clan. He established his own kingdom, emerging from the weakening Adilshahi Sultanate of Bijapur, which laid the foundation for the Maratha Empire. In 1674, Shivaji was officially crowned as the Chatrapati of his domain at Raigad Fort. <br />
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Throughout his life, Shivaji navigated alliances and conflicts with various powers including the Mughal Empire, the Sultanate of Golkonda, the Sultanate of Bijapur, and European colonial forces. His military campaigns expanded Maratha influence, involving the capture and construction of forts, and the development of a Maratha navy. Shivaji instituted an efficient and forward-thinking civil administration with structured administrative systems. He revived ancient Hindu political customs, court traditions, and advocated for the use of Marathi and Sanskrit languages, replacing Persian in court and administration.
                       </p>
+                  </div>
+                  <div className="info-pic">
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shivaji was admired for his respectful treatment of women and his inclusive approach, employing individuals from diverse castes and religions, including Muslims and Europeans, in his administration and military. <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shivaji Maharaj's legacy varied depending on the perspective and era, but nearly two centuries after his passing, he gained increased significance during the Indian independence movement. Many Indian nationalists regarded him as a precursor to nationalism and a hero among Hindus.
+                    </p>
                   </div>
               </div>
           </section>
@@ -53,9 +57,13 @@ export default function English() {
                   <p>
                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In 1636, the Adil Shahi sultanate of Bijapur launched an invasion into the southern kingdoms, having recently become a vassal state of the Mughal empire. Shahaji, then a chieftain in the Maratha uplands of western India, supported the sultanate in hopes of gaining jagir land in the conquered territories, allowing him to collect taxes as an annuity. <br />
                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shahaji, previously in brief Mughal service, rebelled against them. His campaigns against the Mughals, backed by Bijapur, largely failed. Constantly pursued by the Mughal army, Shivaji and his mother Jijabai had to continually relocate from fort to fort. <br />
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In 1636, Shahaji switched allegiance to Bijapur and was granted Poona. While Shahaji was stationed in Bangalore by Adilshah of Bijapur, he appointed Dadoji Kondadeo as the administrator of Poona. Shivaji and Jijabai settled in Poona. When Kondadeo passed away in 1647, Shivaji assumed administration. One of his initial actions directly challenged the authority of the Bijapuri government.
                   </p>
                   <img src="imgs/shivneri.webp" alt="shivneri" height="400px" />
+              </div>
+              <div className="info-pic">
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In 1636, Shahaji switched allegiance to Bijapur and was granted Poona. While Shahaji was stationed in Bangalore by Adilshah of Bijapur, he appointed Dadoji Kondadeo as the administrator of Poona. Shivaji and Jijabai settled in Poona. When Kondadeo passed away in 1647, Shivaji assumed administration. One of his initial actions directly challenged the authority of the Bijapuri government.
+                </p>
               </div>
 
   <hr class="inside" />
@@ -117,7 +125,7 @@ export default function English() {
                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the ensuing Battle of Pavan Khind, the outnumbered Maratha force valiantly held back the larger enemy, buying crucial time for Shivaji's escape. Despite being wounded, Baji Prabhu Deshpande continued to fight until he heard the sound of cannon fire from Vishalgad, signaling Shivaji's successful arrival at the fort on the evening of 13 July 1660. <br />
                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In recognition of their valor and sacrifice, Ghod Khind was later renamed Paavan Khind ("sacred pass") in honor of Baji Prabhu Deshpande, Shibosingh Jadhav, Fuloji, and all the other soldiers who fought there.
                   </p>
-                  <img src="imgs/pavan-khind.webp" alt="pavan-khind" height="300px" />
+                  <img src="imgs/pavan-khind.webp" alt="pavan-khind" height="450px" />
               </div>
           </section>
   <hr />
@@ -412,7 +420,7 @@ export default function English() {
           </section>
   
           <section id="continue-btn">
-              <a href="https://en.wikipedia.org/wiki/Shivaj" target="_blank" rel='noreferrer'><button>Continue Reading</button></a>
+              <a href="https://en.wikipedia.org/wiki/Shivaji" target="_blank" rel='noreferrer'><button>Continue Reading</button></a>
           </section>
       </main>
       <footer>
@@ -421,9 +429,6 @@ export default function English() {
           </p>
           <p>
               Created by <a href="https://www.linkedin.com/in/mohit-shaharwale-634b22282/">Mohit Shaharwale</a>
-          </p>
-          <p>
-              ------------------------------------------------------------------------------------------
           </p>
           <p>
               Text is available under the <a href="https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License">Creative Commons Attribution-ShareAlike License 4.0</a>
