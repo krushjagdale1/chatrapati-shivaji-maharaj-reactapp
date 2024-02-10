@@ -17,13 +17,13 @@ body{
 }
 
 hr{
-    margin: 10px 0;
+    margin: 30px 0;
     height: 10px;
     background: rgb(70, 70, 70, 0.5);
 }
 
 .inside{
-    margin: 10px 0;
+    margin: 30px 0;
     height: 5px;
     background: rgba(166, 166, 166, 0.5);
 }
@@ -33,12 +33,19 @@ strong{
 }
 
 nav{
-    background: black;
+    background: rgb(210, 210, 210);
     width: 100%;
     display: flex;
     position: fixed;
     justify-content: end;
-    color: white;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+}
+
+#translate-lang{
+    font-size: 24px;
+    margin-right: 10px;
 }
 
 nav .lang{
@@ -46,20 +53,22 @@ nav .lang{
 }
 
 nav .lang span{
-    font-size: 18px;
+    font-size: 20px;
 }
 
 nav .lang a{
-    background: gray;
-    border-radius: 20px;
+    background: rgb(180, 180, 180);
+    border-radius: 5px;
     padding: 0px 10px;
-    color: white;
+    color: black;
     text-decoration: none;
     margin: 0 5px;
+    transition: all 0.3s ease-in-out;
 }
 
 nav .lang a:hover{
-    background: rgb(77, 77, 77);
+    color: white;
+    background: rgb(110, 110, 110);
 }
 
 #introduction{
@@ -71,9 +80,9 @@ nav .lang a:hover{
 }
 
 #introduction h1{
-    margin-top: 40px;
+    margin-top: 60px;
     text-align: center;
-    font-size: 6rem;
+    font-size: 6.889rem;
     font-weight: bold;
     font-family: 'Overpass', sans-serif;
 }
@@ -92,7 +101,22 @@ nav .lang a:hover{
 
 p{
     padding: 0 20px;
-    font-size: 24px;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.imp{
+    margin: 10px;
+    margin-left:50px;
+    border-left: 10px solid rgb(98, 98, 98);
+    border-radius: 10px;
+}
+
+.inner{
+    background: rgb(197, 197, 197);
+    padding: 20px;
+    margin: 10px;
     font-weight: bold;
     text-align: justify;
 }
@@ -101,12 +125,13 @@ h2{
     font-family: 'Overpass', sans-serif;
     text-align: center;
     font-size: 3rem;
+    margin-bottom: 20px;
 }
 
 h3 li{
     font-family: 'Overpass', sans-serif;
     font-size: 2rem;
-    margin: 0 40px;
+    margin: 20px 40px;
     margin-top: 30px;
     font-weight: bold;
 }
@@ -123,34 +148,121 @@ img{
     border-radius: 20px;
 }
 
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    font-size: 26px;
+    text-align: left;
+}
+
+thead{
+    text-align: center;
+    background: rgb(170, 170, 170);
+    font-weight: bold;
+}
+
+tbody{
+    background: rgb(197, 197, 197);
+}
+
+tbody td{
+    padding: 2px 10px;
+}
+
+td{
+    outline: 2px solid black;
+}
+
+#continue-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#continue-btn button{
+    font-family: 'Overpass', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: rgb(85, 85, 85);
+    border: 5px solid black;
+    border-radius: 200px;
+    color: white;
+}
+
+#continue-btn button{
+    font-family: 'Overpass', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: rgb(85, 85, 85);
+    border: 5px solid black;
+    border-radius: 200px;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#continue-btn button:hover{
+    background: rgb(179, 179, 179);
+    color: rgb(51, 51, 51);
+}
+
+#continue-btn a{
+    font-size: 26px;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Overpass', sans-serif;
+}
+
+footer{
+    background: rgb(210, 210, 210);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a{
+    text-decoration: underline;
+    color: black;
+    font-weight: bold; 
+}
+
 
 /* For mobile responsive */
 @media only screen and (max-width: 600px) {
     
     hr{
-        margin: 5px 0;
+        margin: 15px 0;
         height: 5px;
     }
 
     .inside{
-        margin: 5px 0;
+        margin: 15px 0;
         height: 2.5px;
         background: rgba(166, 166, 166, 0.5);
     }
     
+    #translate-lang{
+        font-size: 12px;
+        margin-right: 1px;
+    }
+    
     nav .lang{
-        padding: 2px 0;
+        padding: 1px 0;
     }
     
     nav .lang span{
-        font-size: 15px;
+        font-size: 13px;
     }
     
     nav .lang a{
-        background: gray;
-        border-radius: 20px;
         padding: 0px 5px;
-        color: white;
         text-decoration: none;
         margin: 0 2px;
     }
@@ -160,8 +272,9 @@ img{
     }
 
     #introduction h1{
-        font-size: 1.7rem;
-        margin-top: 30px;
+        font-size: 2.94rem;
+        margin-top: 50px;
+        margin-bottom: 20px;
     }
     
     #introduction .intro{
@@ -178,13 +291,27 @@ img{
     }
     
     h2{
-        font-size: 1.1rem;
+        font-size: 2.195rem;
+        margin: 10px 0;
     }
 
     p{
         padding: 0 20px;
         margin-top: 5px;
-        font-size: 16px;
+        font-size: 18px;
+    }
+
+    .imp{
+        margin: 10px;
+        margin-left:20px;
+        border-left: 10px solid rgb(98, 98, 98);
+        border-radius: 5px;
+    }
+    
+    .inner{
+        background: rgb(197, 197, 197);
+        padding: 10px;
+        margin: 0 5px;
     }
 
     .info_pic{
@@ -196,8 +323,18 @@ img{
     }
 
     h3 li{
-        font-size: 0.9rem;
-        margin: 2px 20px;
+        font-size: 1.4rem;
+        margin: 10px 20px;
+    }
+
+    table{
+        font-size: 18px;
+        text-align: left;
+        padding: 0 20px;
+    }
+    
+    tbody td{
+        padding: 2px 5px;
     }
 
     #early-life img{
@@ -224,11 +361,47 @@ img{
         flex-direction: column-reverse;
     }
 
+    #reconquest img{
+        height: 230px;
+    }
+
+    #reconquest .info_pic{
+        flex-direction: column-reverse;
+    }
+
     #coronation img{
-        height: 220px;
+        height: 250px;
     }
 
     #coronation .info_pic{
         flex-direction: column-reverse;
+    }
+
+    #south-india img{
+        height: 250px;
+    }
+
+    #south-india .info_pic{
+        flex-direction: column-reverse;
+    }
+
+    #death-succession img{
+        height: 350px;
+    }
+
+    #death-succession .info_pic{
+        flex-direction: column-reverse;
+    }
+
+    #governance img{
+        height: 300px;
+    }
+
+    #governance .info_pic{
+        flex-direction: column-reverse;
+    }
+
+    #continue-btn button{
+        font-size: 18px;
     }
 }
