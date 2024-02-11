@@ -12,6 +12,7 @@ import Marathi from './components/Marathi';
 import Telugu from './components/Telugu';
 import Kannada from './components/Kannada';
 import Sansrit from './components/Sansrit';
+import Sitemap from './Sitemap/Sitemap';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
                 <Route exact path="/telugu" element={<Telugu />} />
                 <Route exact path="/kannada" element={<Kannada />} />
                 <Route exact path="/sanskrit" element={<Sansrit />} />
+                <Route exact path="/sitemap" element={<Sitemap />} />
         </Routes>
       </Router>
     </>
