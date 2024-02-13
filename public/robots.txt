@@ -1,3 +1,39 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Allow: /
+
+Sitemap: https://chatrapati-shivaji-maharaj.vercel.app/sitemap.xml
+
+# Directories and files to disallow
+Disallow: /admin/
+Disallow: /config/
+Disallow: /node_modules/
+Disallow: /public/
+Disallow: /src/
+Disallow: /tests/
+Disallow: /webpack.config.js
+
+# Crawling rate limit
+Crawl-delay: 10
+
+# Specify the location of the sitemap
+Sitemap: https://chatrapati-shivaji-maharaj.vercel.app/sitemap.xml
+
+# Block specific bots
+User-agent: BadBot
+Disallow: /
+
+# Allow all bots to access CSS, JS, and image files
+User-agent: *
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.svg$
+Allow: /*.gif$
+Allow: /*.ico$
+Allow: /*.woff2$
+Allow: /*.ttf$
+
+# Canonical URL
+Canonical: https://chatrapati-shivaji-maharaj.vercel.app/
