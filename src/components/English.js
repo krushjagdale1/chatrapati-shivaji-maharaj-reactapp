@@ -44,7 +44,7 @@ export default function English() {
               <h2>Early Life</h2>
               <div class="info_pic">
                   <p>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Chatrapati Shivaji Maharaj</strong> was born in Shivneri hill-fort, close to Junnar, now part of Pune district. His birth anniversary, 19 February, is celebrated as Shivaji Jayanti. He was named after the local goddess Shivai Devi. Shivaji belonged to the Bhonsle clan of Marathas. His father, Shahaji Bhonsle, served the Deccan Sultanates as a general. His mother, Jijabai, was the daughter of Lakhuji Jadhavrao of Sindhkhed, aligned with the Mughals. Shivaji's paternal grandfather, Maloji, was a prominent general of Ahmadnagar Sultanate, granted the title of "Raja". He received rights over Pune, Supe, Chakan, and Indapur for military expenses and Fort Shivneri for residence. During Shivaji's birth, power in the Deccan was divided among the Sultanates of Bijapur, Ahmednagar, and Golkonda. Shahaji maintained his loyalty to various rulers while retaining his jagir at Pune and a small army.
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Chatrapati Shivaji Maharaj</strong> was born in Shivneri hill-fort, close to Junnar, now part of Pune district. His birth anniversary, 19 February, is celebrated as Shiv Jayanti. He was named after the local goddess Shivai Devi. Shivaji belonged to the Bhonsle clan of Marathas. His father, Shahaji Bhonsle, served the Deccan Sultanates as a general. His mother, Jijabai, was the daughter of Lakhuji Jadhavrao of Sindhkhed, aligned with the Mughals. Shivaji's paternal grandfather, Maloji, was a prominent general of Ahmadnagar Sultanate, granted the title of "Raja". He received rights over Pune, Supe, Chakan, and Indapur for military expenses and Fort Shivneri for residence. During Shivaji's birth, power in the Deccan was divided among the Sultanates of Bijapur, Ahmednagar, and Golkonda. Shahaji maintained his loyalty to various rulers while retaining his jagir at Pune and a small army.
                   </p>
                   <img src="imgs/shivaji_childhood.webp" alt="shivaji_childhood" height="500" />
               </div>
@@ -423,17 +423,6 @@ export default function English() {
               <a href="https://en.wikipedia.org/wiki/Shivaji" target="_blank" rel='noreferrer'><button>Continue Reading</button></a>
           </section>
       </main>
-      <footer>
-          <p>
-              Created as a part of Tribute Page Project
-          </p>
-          <p>
-              Created by <a href="https://www.linkedin.com/in/mohit-shaharwale-634b22282/">Mohit Shaharwale</a>
-          </p>
-          <p>
-              Text is available under the <a href="https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License">Creative Commons Attribution-ShareAlike License 4.0</a>
-          </p>
-      </footer>
     </>
     )
 }

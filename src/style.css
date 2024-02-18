@@ -13,19 +13,19 @@ html{
 }
 
 body{
-    background: rgb(229, 229, 229);
+    background: rgb(255, 207, 136);
 }
 
 hr{
     margin: 30px 0;
     height: 10px;
-    background: rgb(70, 70, 70, 0.5);
+    background: rgb(255, 185, 46);
 }
 
 .inside{
     margin: 30px 0;
     height: 5px;
-    background: rgba(166, 166, 166, 0.5);
+    background: rgba(255, 185, 46, 0.5);
 }
 
 strong{
@@ -33,7 +33,7 @@ strong{
 }
 
 nav{
-    background: rgb(210, 210, 210);
+    background: rgb(255, 185, 46);
     width: 100%;
     display: flex;
     position: fixed;
@@ -57,7 +57,7 @@ nav .lang span{
 }
 
 nav .lang a{
-    background: rgb(180, 180, 180);
+    background: rgb(255, 201, 93);
     border-radius: 5px;
     padding: 0px 10px;
     color: black;
@@ -68,7 +68,7 @@ nav .lang a{
 
 nav .lang a:hover{
     color: white;
-    background: rgb(110, 110, 110);
+    background: rgb(255, 173, 10);
 }
 
 #introduction{
@@ -109,12 +109,12 @@ p{
 .imp{
     margin: 10px;
     margin-left:50px;
-    border-left: 10px solid rgb(98, 98, 98);
+    border-left: 10px solid rgb(255, 185, 46);
     border-radius: 10px;
 }
 
 .inner{
-    background: rgb(197, 197, 197);
+    background: rgb(255, 197, 82);
     padding: 20px;
     margin: 10px;
     font-weight: bold;
@@ -161,12 +161,12 @@ table{
 
 thead{
     text-align: center;
-    background: rgb(170, 170, 170);
+    background: rgb(255, 185, 46);
     font-weight: bold;
 }
 
 tbody{
-    background: rgb(197, 197, 197);
+    background: rgb(255, 215, 136);
 }
 
 tbody td{
@@ -188,19 +188,8 @@ td{
     font-size: 26px;
     font-weight: bold;
     padding: 10px 20px;
-    background: rgb(85, 85, 85);
-    border: 5px solid black;
-    border-radius: 200px;
-    color: white;
-}
-
-#continue-btn button{
-    font-family: 'Overpass', sans-serif;
-    font-size: 26px;
-    font-weight: bold;
-    padding: 10px 20px;
-    background: rgb(85, 85, 85);
-    border: 5px solid black;
+    background: rgb(255, 185, 46);
+    border: 5px solid rgb(255, 162, 0);
     border-radius: 200px;
     color: white;
     transition: all 0.3s ease-in-out;
@@ -208,7 +197,7 @@ td{
 }
 
 #continue-btn button:hover{
-    background: rgb(179, 179, 179);
+    background: rgb(255, 212, 125);
     color: rgb(51, 51, 51);
 }
 
@@ -219,20 +208,142 @@ td{
     font-family: 'Overpass', sans-serif;
 }
 
-footer{
-    background: rgb(210, 210, 210);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+/* Footer Starts */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+.footer {
+  margin-top: 120px;
+  position: relative;
+  width: 100%;
+  background: rgb(255, 185, 46);
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-footer a{
-    text-decoration: underline;
-    color: black;
-    font-weight: bold; 
+footer li{
+    list-style: none;
 }
 
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.menu__link {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 3px 0;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.footer a {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
+.wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url("https://i.ibb.co/wQZVxxk/wave.png");
+  filter: hue-rotate(170deg) brightness(170%);
+  background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: -1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
+.creative-commons{
+    font-family:Arial;
+    color: white;
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 1em;
+    font-weight: bold;
+    width: 2em;
+    height: 2em;
+    display: inline-block;
+    line-height: 2em;
+    text-align: center;
+    font-size: 1em;
+   }
+
+/* Footer Ends */
 
 /* For mobile responsive */
 @media only screen and (max-width: 600px) {
@@ -304,12 +415,12 @@ footer a{
     .imp{
         margin: 10px;
         margin-left:20px;
-        border-left: 10px solid rgb(98, 98, 98);
+        border-left: 10px solid rgb(255, 185, 46);
         border-radius: 5px;
     }
     
     .inner{
-        background: rgb(197, 197, 197);
+        background: rgb(255, 197, 82);
         padding: 10px;
         margin: 0 5px;
     }
@@ -403,5 +514,9 @@ footer a{
 
     #continue-btn button{
         font-size: 18px;
+    }
+
+    .footer p {
+        font-size: 0.9rem;
     }
 }
