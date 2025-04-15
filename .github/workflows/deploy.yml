@@ -17,6 +17,5 @@ jobs:
         username: ubuntu
         key: ${{ secrets.githubaction }}
         script: |
-          cd /root/chatrapati-shivaji-maharaj-reactap
-          chmod +x deploy.sh
+          cd /home/ubuntu
           ./deploy.sh
