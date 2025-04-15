@@ -1,0 +1,23 @@
+name: Auto Deploy to EC2 on Commit
+
+on:
+  push:
+    branches:
+      - master  # Triggers the workflow on push to main branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Connect to EC2 and run deploy script
+      uses: appleboy/ssh-action@master
+      with:
+        host: 3.89.244.10               # Your EC2 public IP
+        username: ubuntu                # EC2 username
+        key: ${{ secrets.githubaction }}  # GitHub Secret holding your PEM key
+        script: |
+          cd /root
+          chmod +x deploy.sh
+          ./deploy.sh
+
